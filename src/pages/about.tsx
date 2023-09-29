@@ -3,8 +3,8 @@ import React from "react";
 const AboutPage: React.FC = () => {
   return (
     <div className="container mx-auto py-8 ">
-      <div className="bg-purpleg rounded p-4 shadow-md">
-        <h1 className="mb-4 text-center font-bold text-white">
+      <div className="bg-purpleg mt-12 rounded p-4 shadow-md">
+        <h1 className="mb-4  text-center font-bold text-white">
           T3: Creating scalable applications
         </h1>
         <p className="text-white">

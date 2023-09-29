@@ -1,8 +1,8 @@
-//import { api } from "~/utils/api";
+import { api } from "~/utils/api";
 import SearchBar from "../pages/searchBar";
 
 const Home: React.FC = () => {
-  // const hello = api.example.hello.useQuery({ text: "from tRPC" });
+  const hello = api.example.hello.useQuery({ text: "from tRPC" });
   return (
     <div className=" h-screen items-center justify-center bg-custom">
       <main className=" container mx-auto py-4">
